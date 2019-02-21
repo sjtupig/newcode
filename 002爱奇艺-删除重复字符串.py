@@ -6,3 +6,14 @@ for i in s:
         maps.add(i)
         res.append(i)
 print(''.join(res))
+
+
+#
+
+
+s = raw_input()
+res = ''
+for string in s :
+    if string not in res :
+        res = res + string
+print(res)
